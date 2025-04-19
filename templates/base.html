@@ -10,6 +10,11 @@
 </head>
 <body>
     <nav class="navigation">
+        <div class="nav-logo">
+            <a href="https://github.com/Kirito0098/AdminAntizapret" target="_blank">
+                <img src="{{ url_for('static', filename='assets/img/Vector.svg') }}" alt="Logo" class="nav-logo-img">
+            </a>
+        </div>
         <div class="nav-group">
             <a href="{{ url_for('index') }}" class="nav-link">Главная</a>
             <a href="{{ url_for('edit_files') }}" class="nav-link">Редактировать файлы</a>
